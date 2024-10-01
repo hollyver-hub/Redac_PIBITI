@@ -1,7 +1,7 @@
 from PIL import Image
 import json
 
-with open("teste_OCR.json", 'r') as d:
+with open("data.json", 'r') as d:
     dados = json.load(d)
 
 imagem = Image.open('Division/Paragraph/Paragraph1.png')
